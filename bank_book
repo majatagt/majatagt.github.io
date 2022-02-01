@@ -1,0 +1,80 @@
+This folder contains the first coding assignment of MSc Computer Science November 2021 from the Launching into Computer Science from the 
+University of Essex Online.
+
+
+ # Bank book
+    A simple bank book to keep track of transaction data. Created with Python, SQLite 3 and Tkinter. 
+## Titles 
+### Table of contents
+    Aim
+    Technologies
+    Launch
+    Status
+
+##Aim of the bank book 
+The set out purpose of the bank book is to allow the user to enter and store data about their transactions.
+
+##Technologies used
+•	Python 3.10
+•	SQLite 3
+•	Tkinter
+  • messagebox
+  • entry
+•
+
+##Launch
+As the project is simple, no specific hardware is required, however the libraries needs to be imported and it must be run in an environment.
+
+'''
+from tkinter import *
+from tkinter import messagebox, Tk
+import sqlite3
+from tkinter import Entry
+'''
+
+
+###To run the program:
+• an environment is needed
+• input data
+  • name (of user)
+  • account number
+  • date (of transaction)
+  • shop name (place of transaction)
+  • amount (of the transaction)
+  • category (freely chosen by the user)
+
+
+
+
+
+
+
+Consider also using additional elements such as: 
+
+Illustrations
+##Scope of functionalities 
+•	user can enter six records
+• user can delete and search records based on keywords
+•	user can sort the records by amount
+• user gets a prompt on the screen before committing to an action
+• user has to select an option on the screen for a function to be performed
+
+##Intended uses
+•	For personal use and for one bank account. 
+•	
+##Project status 
+•	Finalised, but can be improved for greater userfriendliness. 
+
+##Sources
+•	https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings
+•	https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project
+
+## Concluding remarks, notes and scope for improvment
+Functions I would have done differently:
+•	Instead of sorting the records by amount in descending order, I would have enabled sorting by date or category instead.
+• I would make it clear to the user that it does not have to enter account number with every transaction, it was meant as an initial set up so it   would be clear which account the transactions belong to. It could be confusing to the user in its current state.
+•	
+•	
+•	
+•	
+
