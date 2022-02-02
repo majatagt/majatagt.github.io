@@ -23,7 +23,8 @@ The set out purpose of the bank book is to allow the user to enter and store dat
 •
 
 ##Launch
-As the project is simple, no specific hardware is required, however the libraries needs to be imported and it must be run in an environment.
+As the project is simple, no specific hardware is required but the standard. 
+Libraries aforementioned must be imported with the code below, and the Pycharm environment installed. 
 
 '''
 from tkinter import *
@@ -34,22 +35,10 @@ from tkinter import Entry
 
 
 ###To run the program:
-• an environment is needed
-• input data
-  • name (of user)
-  • account number
-  • date (of transaction)
-  • shop name (place of transaction)
-  • amount (of the transaction)
-  • category (freely chosen by the user)
+• Pycharm is needed.
+• input data as specified in testcase 1-6 in part 1. 
 
 
-
-
-
-
-
-Consider also using additional elements such as: 
 
 Illustrations
 ##Scope of functionalities 
@@ -58,6 +47,8 @@ Illustrations
 •	user can sort the records by amount
 • user gets a prompt on the screen before committing to an action
 • user has to select an option on the screen for a function to be performed
+
+
 
 ##Intended uses
 •	For personal use and for one bank account. 
