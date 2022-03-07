@@ -1,3 +1,0 @@
-# majatagt.github.io
-
-README
