@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Object-oriented Information Systems</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript></head>
+        <style>
+            #body_1 {
+                border: 2.5px solid darkgray;
+                border-radius: 7px;
+            }
+
+            #body_2 {
+                border: 2.5px solid darkgray;
+                border-radius: 7px;
+            }
+            #body_3 {
+                border: 2.5px solid darkgray;
+                border-radius: 7px;
+            }
+            #body_4 {
+                border: 2.5px solid darkgray;
+                border-radius: 7px;
+            }
+
+            </style>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="oob_main.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Maja Tagt</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="gen_aboutme.html">My resume</a></li>
+							<li><a href="generic.html">Tempus etiam</a></li>
+							<li><a href="generic.html">Consequat dolor</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+					</nav>
+                    <br>・
+				<!-- Header-->
+					<div id="main">
+						<div class="inner">
+							<h1>Unit 7, Object-oriented Information Systems</h1>
+							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
+							<b><h2>Unit 7 learning outcomes</h2></font></a></b> 
+                            ・Develop the knowledge and skills to apply database design principles.
+                            <br>・Design a database that has been correctly normalised .
+							<p>
+
+						</p>
+                        <br>
+                        <!-- Main body 1-->
+                        <div id="body_1">
+                            <p style ="margin-right: 0%; margin-left: 0%;"><font size = "5"><h2>Normalisation in practice</font></p></h2></a></b> 
+                            <p class="paragraph" id="p1"> 3NF
+
+                            
+
+                            <p style ="margin-right: 0%; margin-left: 0%;"><h4><b>Instructions</b></h4>
+                            <p>                                
+                                <br> The aim of this activity is to allow you to gain some experience normalising a set of tables.
+
+                                <br>Given the following set of tables, for our property lettings example, you should develop a table structure that conforms to third normal form (3NF). This will be discussed in next week’s seminar. Post your structure to the discussion below and compare your own approach with your peers. Use the guidelines provided for peer review on the department website.
+                                <br>
+                                <br><b>Existing table structure</b>
+                                <br> Properties                             
+                                <br>Street                              
+                                <br>Postcode                              
+                                <br>Type                               
+                                <br>Bedrooms                              
+                                <br>Owner name                               
+                                <br>Owner address                               
+                                <br>Owner telephone                               
+                                <br>Price                                
+                                <br>Client name
+                                <br>Client Date of Birth                  
+                                <br>Client telephone                        
+                                <br>Rental start date                         
+                                <br>Duration    
+                                <br>Pets allowed           
+                                <br>Deposit amount    
+                                <br>Deposit paid   
+                                <br>Maintenance                              
+                                <br>Street                 
+                                <br>Postcode              
+                                <br>Owner name                             
+                                <br>Owner telephone                          
+                                <br>Tenant name                          
+                                <br>Tenant telephone     
+                                <br>Issue                
+                                <br>Contractor name                        
+                                <br>Contractor telephone
+                                <br>Estimated cost
+                                <br>Resolved
+                                
+                                </p>
+
+                            <p style ="margin-right: 0%; margin-left: 0%;"><h4><b>My 3NF normalisation</b></h4>
+                                <br><img src="images/Lettings_diagram.png " width="900" height="610">
+                                
+                            </p>
+                            <br>
+                            <br>
+                            <br>
+                            <!-- Main body 2-->
+                            <div id="body_2">
+                                <p style ="margin-right: 0%; margin-left: 0%;"><font size = "6"><b> Design system implementation </font></a></b> 
+                                <br> 30% of module grade.
+                                <br>
+                                <br><b> Assignment instruction: </b>
+                                <br>
+                                <br>You have been asked to design a new software system to manage self- service checkouts at a well-known high street supermarket chain. 
+
+                                <br>When an item is scanned, it is added to the customers purchases in a virtual shopping basket. Items can either be scanned with 
+                                the barcode reader or they can be weighed using the integrated scales. When the customer has finished scanning their items, they will be given 
+                                the option to scan their loyalty card, if they have one.<br>
+                                 
+
+                                <br>The customer then purchases their items using several different payment methods 
+                                (e.g., cash, card, ApplePay, AndroidPay, vouchers, loyalty points). Supermarket staff will have the ability to override transactions where 
+                                required, for example if a price has been scanned incorrectly, they will also be responsible for checking the age of a customer 
+                                for restricted items. 
+
+                                <br>A completed transaction will update the supermarkets stock control systems and generate an alert for warehouse staff if either the shelves 
+                                should be replenished or if stock needs to be reordered. 
+
+                                <br>Using the scenario provided you are required to generate an object model for the proposed system. 
+                                You should produce a report that contains the followings items (the associated grading criteria have been highlighted, 
+                                based on the full  grid in the Module Resources page): 
+                                <br>
+
+
+                                <br>・A list of classes (including the reason for their inclusion) and
+                                <br>・A list of the relationships between the classes (and the reasons that you chose them) <b>(Criticality weighted at 25%)</b> 
+                                <br>・A class diagram (using the standard) <b>(Structure and Presentation 25%)</b>
+                                <br>・You should aim to draw out the attributes and operations for each of the classes and provide a rationale for your system design
+                                <br> and any key choices made (500 words). 
+                                <b>(Knowledge and Understanding weighted at 25%, Application of Knowledge weighted at 25%)</b>
+                                <br>
+                                <br>
+                                <br><b>Learning Outcomes</b>
+
+                                <br>・Appraise and evaluate critically the concepts and principles of information systems.
+                                <br>・Design or modify and document an object-oriented information system using appropriate tools.
+                                <br>
+                                
+                                
+                                    </p>
+
+                                <p style ="margin-right: 0%; margin-left: 0%;"><b>My submission!</b>
+                                    <p>Scannee in the document is refering to a person scanning the item, or the input scanner. 
+                                    <br><a href="documents/Unit7_Scanning_system.docx" download>・ Explanory document
+                                    <br><a href="documents/Unit7_classdiagram.pdf" download>・ Class diagram
+                                    <br><a href="documents/Unit7_objectdiagram.pdf" download>・ Object diagram
+                                    </p>
+                                    
+                                    <p style ="margin-right: 0%; margin-left: 0%;"><b>Tutor feedback:</b>
+                                        <br> A good selection of classes that maps well to the scenario. 
+                                        I wasn't quite clear on one of the choices - what is the scanee class meant to represent? 
+                                        I couldn't quite see how that fitted!	
+
+                                        The relationships and multiplicities are sensible but it would be useful to name your relationships. 
+                                        This provides more detail and context on what you are submitting. 	
+                                        
+                                        The states and behaviours are acceptable, however, it looks as though you have not always included a state for the class that is used in composition. 	
+                                        
+                                        Both inheritance and composition have been used appropriately and where relevant. 	
+                                        
+                                        Notation is mostly correct, with a few minor issues (e.g. relationship names)
+                                        </p>
+                            </div></p>
+
+                           
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="center">
+							<section>
+                                <footer>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <a href="mailto: maja.taegt@gmail.com">email: maja.taegt@gmail.com</a></p>
+                                  </footer>
+										
+									</ul>
+								</form>
+							</section>
+							<section>
+
+								</ul>
+							</section>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
